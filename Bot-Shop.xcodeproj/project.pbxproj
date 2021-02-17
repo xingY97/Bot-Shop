@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		148696ED25DDA1370095ADC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148696EC25DDA1370095ADC7 /* AppDelegate.swift */; };
 		148696EF25DDA1370095ADC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148696EE25DDA1370095ADC7 /* SceneDelegate.swift */; };
-		148696F125DDA1370095ADC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148696F025DDA1370095ADC7 /* ViewController.swift */; };
+		148696F125DDA1370095ADC7 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148696F025DDA1370095ADC7 /* NewOrderViewController.swift */; };
 		148696F625DDA1370095ADC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148696F525DDA1370095ADC7 /* Assets.xcassets */; };
 		148696F925DDA1370095ADC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148696F725DDA1370095ADC7 /* LaunchScreen.storyboard */; };
+		1486970525DDA5150095ADC7 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486970425DDA5150095ADC7 /* PastOrderViewController.swift */; };
+		1486970825DDA5730095ADC7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486970725DDA5730095ADC7 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		148696E925DDA1370095ADC7 /* Bot-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		148696EC25DDA1370095ADC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		148696EE25DDA1370095ADC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		148696F025DDA1370095ADC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		148696F025DDA1370095ADC7 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		148696F525DDA1370095ADC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148696F825DDA1370095ADC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		148696FA25DDA1370095ADC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1486970425DDA5150095ADC7 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		1486970725DDA5730095ADC7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				148696EC25DDA1370095ADC7 /* AppDelegate.swift */,
 				148696EE25DDA1370095ADC7 /* SceneDelegate.swift */,
-				148696F025DDA1370095ADC7 /* ViewController.swift */,
+				1486970425DDA5150095ADC7 /* PastOrderViewController.swift */,
+				1486970725DDA5730095ADC7 /* TabBarController.swift */,
+				148696F025DDA1370095ADC7 /* NewOrderViewController.swift */,
 				148696F525DDA1370095ADC7 /* Assets.xcassets */,
 				148696F725DDA1370095ADC7 /* LaunchScreen.storyboard */,
 				148696FA25DDA1370095ADC7 /* Info.plist */,
@@ -133,9 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148696F125DDA1370095ADC7 /* ViewController.swift in Sources */,
+				148696F125DDA1370095ADC7 /* NewOrderViewController.swift in Sources */,
 				148696ED25DDA1370095ADC7 /* AppDelegate.swift in Sources */,
 				148696EF25DDA1370095ADC7 /* SceneDelegate.swift in Sources */,
+				1486970825DDA5730095ADC7 /* TabBarController.swift in Sources */,
+				1486970525DDA5150095ADC7 /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
