@@ -14,6 +14,8 @@
 		148696F925DDA1370095ADC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148696F725DDA1370095ADC7 /* LaunchScreen.storyboard */; };
 		1486970525DDA5150095ADC7 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486970425DDA5150095ADC7 /* PastOrderViewController.swift */; };
 		1486970825DDA5730095ADC7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486970725DDA5730095ADC7 /* TabBarController.swift */; };
+		1486970F25DDAC510095ADC7 /* TabHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486970E25DDAC510095ADC7 /* TabHomeViewController.swift */; };
+		1486971325DDB0B30095ADC7 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486971225DDB0B30095ADC7 /* profileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		148696FA25DDA1370095ADC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1486970425DDA5150095ADC7 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		1486970725DDA5730095ADC7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1486970E25DDAC510095ADC7 /* TabHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHomeViewController.swift; sourceTree = "<group>"; };
+		1486971225DDB0B30095ADC7 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +64,40 @@
 			children = (
 				148696EC25DDA1370095ADC7 /* AppDelegate.swift */,
 				148696EE25DDA1370095ADC7 /* SceneDelegate.swift */,
-				1486970425DDA5150095ADC7 /* PastOrderViewController.swift */,
-				1486970725DDA5730095ADC7 /* TabBarController.swift */,
-				148696F025DDA1370095ADC7 /* NewOrderViewController.swift */,
+				1486970A25DDABC30095ADC7 /* Model */,
+				1486970B25DDABC90095ADC7 /* View */,
+				1486970C25DDABCE0095ADC7 /* Controller */,
 				148696F525DDA1370095ADC7 /* Assets.xcassets */,
 				148696F725DDA1370095ADC7 /* LaunchScreen.storyboard */,
 				148696FA25DDA1370095ADC7 /* Info.plist */,
 			);
 			path = "Bot-Shop";
+			sourceTree = "<group>";
+		};
+		1486970A25DDABC30095ADC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1486970B25DDABC90095ADC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1486970725DDA5730095ADC7 /* TabBarController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1486970C25DDABCE0095ADC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				148696F025DDA1370095ADC7 /* NewOrderViewController.swift */,
+				1486970425DDA5150095ADC7 /* PastOrderViewController.swift */,
+				1486970E25DDAC510095ADC7 /* TabHomeViewController.swift */,
+				1486971225DDB0B30095ADC7 /* profileViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				148696F125DDA1370095ADC7 /* NewOrderViewController.swift in Sources */,
+				1486970F25DDAC510095ADC7 /* TabHomeViewController.swift in Sources */,
+				1486971325DDB0B30095ADC7 /* profileViewController.swift in Sources */,
 				148696ED25DDA1370095ADC7 /* AppDelegate.swift in Sources */,
 				148696EF25DDA1370095ADC7 /* SceneDelegate.swift in Sources */,
 				1486970825DDA5730095ADC7 /* TabBarController.swift in Sources */,
