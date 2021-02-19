@@ -19,6 +19,8 @@
 		1486971625DDB19A0095ADC7 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486971525DDB19A0095ADC7 /* NewItemCell.swift */; };
 		149209DE25E0307A0071C266 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149209DD25E0307A0071C266 /* Item.swift */; };
 		149209E325E038110071C266 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149209E225E038110071C266 /* PastOrderCell.swift */; };
+		149209E625E044AC0071C266 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149209E525E044AC0071C266 /* Order.swift */; };
+		149209EA25E047580071C266 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149209E925E047580071C266 /* OrderList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		1486971525DDB19A0095ADC7 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 		149209DD25E0307A0071C266 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		149209E225E038110071C266 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
+		149209E525E044AC0071C266 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		149209E925E047580071C266 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		1486970A25DDABC30095ADC7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				149209E525E044AC0071C266 /* Order.swift */,
 				149209DD25E0307A0071C266 /* Item.swift */,
 			);
 			path = Model;
@@ -103,6 +108,7 @@
 				149209E225E038110071C266 /* PastOrderCell.swift */,
 				148696F025DDA1370095ADC7 /* NewOrderViewController.swift */,
 				1486970425DDA5150095ADC7 /* PastOrderViewController.swift */,
+				149209E925E047580071C266 /* OrderList.swift */,
 				1486970E25DDAC510095ADC7 /* TabHomeViewController.swift */,
 				1486971225DDB0B30095ADC7 /* profileViewController.swift */,
 			);
@@ -180,8 +186,10 @@
 			files = (
 				148696F125DDA1370095ADC7 /* NewOrderViewController.swift in Sources */,
 				149209DE25E0307A0071C266 /* Item.swift in Sources */,
+				149209EA25E047580071C266 /* OrderList.swift in Sources */,
 				1486970F25DDAC510095ADC7 /* TabHomeViewController.swift in Sources */,
 				1486971325DDB0B30095ADC7 /* profileViewController.swift in Sources */,
+				149209E625E044AC0071C266 /* Order.swift in Sources */,
 				148696ED25DDA1370095ADC7 /* AppDelegate.swift in Sources */,
 				148696EF25DDA1370095ADC7 /* SceneDelegate.swift in Sources */,
 				1486971625DDB19A0095ADC7 /* NewItemCell.swift in Sources */,
