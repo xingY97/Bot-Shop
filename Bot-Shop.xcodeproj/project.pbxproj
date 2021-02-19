@@ -18,6 +18,7 @@
 		1486971325DDB0B30095ADC7 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486971225DDB0B30095ADC7 /* profileViewController.swift */; };
 		1486971625DDB19A0095ADC7 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486971525DDB19A0095ADC7 /* NewItemCell.swift */; };
 		149209DE25E0307A0071C266 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149209DD25E0307A0071C266 /* Item.swift */; };
+		149209E325E038110071C266 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149209E225E038110071C266 /* PastOrderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1486971225DDB0B30095ADC7 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		1486971525DDB19A0095ADC7 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 		149209DD25E0307A0071C266 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		149209E225E038110071C266 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1486971525DDB19A0095ADC7 /* NewItemCell.swift */,
+				149209E225E038110071C266 /* PastOrderCell.swift */,
 				148696F025DDA1370095ADC7 /* NewOrderViewController.swift */,
 				1486970425DDA5150095ADC7 /* PastOrderViewController.swift */,
 				1486970E25DDAC510095ADC7 /* TabHomeViewController.swift */,
@@ -183,6 +186,7 @@
 				148696EF25DDA1370095ADC7 /* SceneDelegate.swift in Sources */,
 				1486971625DDB19A0095ADC7 /* NewItemCell.swift in Sources */,
 				1486970825DDA5730095ADC7 /* TabBarController.swift in Sources */,
+				149209E325E038110071C266 /* PastOrderCell.swift in Sources */,
 				1486970525DDA5150095ADC7 /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
